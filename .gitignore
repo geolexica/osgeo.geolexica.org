@@ -1,0 +1,9 @@
+.DS_Store
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+
+_concepts
+concepts_data
+

@@ -1,0 +1,122 @@
+title: "OSGeo Glossary (Geolexica)"
+
+google_analytics:
+  id: UA-138578173-2
+
+committee:
+  id: 211
+  name: OSGeo
+  home: https://www.osgeo.org
+
+font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
+
+has_brand_name: yes
+always_show_committee_link_on_landing: yes
+
+email: open.source@ribose.com
+
+tagline: >-
+  OSGeo Glossary
+
+description: >-
+  The authoritative glossary for OSGeo.
+
+baseurl: ""
+url: "https://osgeo.geolexica.org"
+
+social:
+  links:
+    - url: https://twitter.com/osgeo
+    - url: https://github.com/osgeo
+
+# algolia:
+#   application_id: NOP
+#   index_name: NOP
+#   search_only_api_key: NOP
+
+nav:
+  items:
+  - id: concepts
+    url: /concepts
+    title: Concepts
+    description: List of all concepts
+  - id: posts
+    url: /posts
+    title: News & Articles
+  - id: stats
+    url: /stats
+    title: Statistics
+    description: Per-language term statistics
+  - id: about
+    url: /about
+    title: About
+  # - id: feedback
+  #   url: /feedback
+  #   title: Feedback
+
+footer_nav:
+  - url: https://www.osgeo.org
+    title: OSGeo
+
+powered_by:
+  url: https://open.ribose.com
+  title: Ribose
+  logo_path: /assets/logo-ribose.svg
+
+theme: jekyll-theme-isotc211
+
+sass:
+  style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  concepts:
+    output: true
+    permalink: /:collection/:name/
+  concepts_json:
+    output: true
+    output_ext: .json
+    permalink: /api/concepts/:name.json
+
+defaults:
+  - scope:
+      path: ""
+      type: "concepts"
+    values:
+      layout: concept
+  - scope:
+      path: ""
+      type: "concepts_json"
+    values:
+      layout: concept.json
+      permalink: /api/concepts/:name.json
+
+term_languages:
+  - eng
+
+exclude:
+  - "*.yaml"
+  - concepts_data
+
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+
+  - babel.config.js
+  - package.json
+  - package-lock.json
+  - monitor.sh
+  - node_modules
+
+  - github_deploy_key.enc
+  - deploy.sh
+  - monitor.sh
+
+  - .sass-cache/
+
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,35 @@
+---
+layout: base-page
+title: About
+permalink: /about/
+bodyClass: page
+nav_items: [concepts, stats, feedback, registers]
+---
+:page-liquid:
+
+The OSGeo Geolexica is the online glossary for https://www.osgeo.org[OSGeo].
+
+
+== Responsibility
+
+////
+The MLGT is managed by the ISO/TC 211 Terminology Maintenance Group (TMG).
+The convenor of the TMG is Mr. Reese Plews of Japan.
+
+Geolexica is jointly managed by the TMG and https://www.ribose.com[Ribose],
+the official ISO/TC 211 web service provider and
+Registration Authority of the
+https://geodetic.isotc211.org[ISO Geodetic Register].
+////
+
+
+== Feedback
+
+////
+Feedback for Geolexica can be submitted on the
+link:/feedback[Feedback] page.
+
+Identified issues that are publicly visible are maintained at the
+https://github.com/geolexica/TMG/issues[TMG GitHub Issues] page.
+
+////

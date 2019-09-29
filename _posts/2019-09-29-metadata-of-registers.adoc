@@ -1,0 +1,8 @@
+---
+layout: custom-post
+title:  "OSGeo Glossary now live"
+date:   2019-09-29 15:30:00 +0800
+categories: update
+---
+
+Welcome to the OSGeo Glossary powered by Geolexica!

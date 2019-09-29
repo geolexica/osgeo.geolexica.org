@@ -1,0 +1,23 @@
+header:
+  register-name: OSGeo Glossary
+  content-summary: OSGeo Glossary
+  date-of-last-change: 2019-08-09 00:00:00.000000000 +08:00
+  register-owner: OSGeo
+  register-owner-contact: Cameron Shorter
+  register-owner-contact-email: Cameron Shorter
+  register-manager: OSGeo
+  register-manager-contact: Cameron Shorter
+  register-manager-contact-email: Cameron Shorter
+  uniform-resource-identifier-uri: https://github.com/geolexica/osgeo.geolexica.org
+languages:
+  eng:
+    register-name: OSGeo Glossary
+    content-summary: OSGeo Glossary
+    date-of-last-change: '2017-10-19'
+    submitting-organisation-name: OSGeo Glossary
+    submitting-organisation-contact: OSGeo
+    submitting-organisation-contact-email: Cameron Shorter
+    uniform-resource-identifier-uri:
+    operating-language-name: English
+    operating-language-code: eng
+    operating-language-country: US
