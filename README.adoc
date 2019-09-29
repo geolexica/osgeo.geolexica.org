@@ -1,16 +1,24 @@
 = Geolexica: OSGeo Glossary
 
-//image:https://travis-ci.com/geolexica/osgeo.geolexica.org.svg?branch=master[
-//	Build Status, link="https://travis-ci.com/geolexica/osgeo.geolexica.org"]
+image:https://github.com/geolexica/osgeo.geolexica.org/workflows/build/badge.svg["Build Status", link="https://github.com/osgeo.geolexica.org/actions?workflow=build"]
+
+image:https://github.com/geolexica/osgeo.geolexica.org/workflows/deploy-master/badge.svg["Build Status", link="https://github.com/osgeo.geolexica.org/actions?workflow=deploy-master"]
+
+image:https://github.com/geolexica/osgeo.geolexica.org/workflows/deploy-staging/badge.svg["Build Status", link="https://github.com/osgeo.geolexica.org/actions?workflow=deploy-staging"]
+
 
 == Introduction
-
-Geolexica is the site name of the online version of the ISO/TC 211 Multi Lingual Glossary of Terms.
 
 This repository provides all necessary information for the
 https://osgeo.geolexica.org site.
 
 The site is managed by OSGeo and operated by Geolexica/Ribose.
+
+These branches of the site are deployed at:
+
+`master`:: https://osgeo.geolexica.org
+`staging`:: https://osgeodev.geolexica.org
+
 
 NOTE: This repository is only meant for internal consumption!
 
@@ -26,6 +34,7 @@ There are two types of entries in this site:
 . Terms, which represent concepts in a certain language
 
 
+[[concepts]]
 === Concepts
 
 Every concept is recognized by a unique ID (the "`term id`"), and contains terms
@@ -104,14 +113,12 @@ Please submit proposed changes either as new Issues or Pull Requests.
 
 NOTE: These steps are only intended for the internal operator of the site!
 
+
 === Building the index
 
 [source,sh]
 ----
-# removes all generated files
 make dist-clean
-
-# generates all required files for Jekyll and runs `jekyll build`
 make _site
 ----
 
@@ -126,4 +133,31 @@ These branches of the site are deployed at:
 
 `master`:: https://osgeo.geolexica.org
 `staging`:: https://osgeodev.geolexica.org
+
+
+== Contributing
+
+=== Contributing new entries (concepts/terms/translations)
+
+Please either:
+
+. File an Issue with description of what you are proposing,
+  the managers will create a pull request for you; or
+
+. Better yet, directly create a Pull Request to the `/concepts_data`
+  folder, allowing direct review and merging of the PR. Please
+  see existing `/concept_data` YAML files for the correct format
+  or the example at <<concepts>>.
+
+
+=== Modification of existing entries
+
+Please either:
+
+. File an Issue with description of what you would like to change,
+  the managers will create a pull request for you; or
+
+. Directly create a Pull Request to the particular
+  `/concepts_data/{entry}.yaml` file with your modifications.
+
 
