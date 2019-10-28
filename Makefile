@@ -6,7 +6,10 @@ clean:
 	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts_data concepts _data/info.yaml
+	rm -rf concepts_data concepts
+
+# Don't remove _data/info.yaml since osgeo-termbase can't generate it yet
+	#_data/info.yaml
 
 data: _data/info.yaml _concepts
 
@@ -15,6 +18,13 @@ _site: data | bundle
 
 bundle:
 	bundle
+
+glossary.csv:
+	bundle exec osgeo-termbase-fetchcsv glossary.csv
+
+concepts_data:
+	bundle exec osgeo-termbase-csv2yaml glossary.csv
+	mv concepts concepts_data
 
 # Make collection YAML files into adoc files
 _concepts: concepts_data

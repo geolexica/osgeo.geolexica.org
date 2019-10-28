@@ -3,7 +3,7 @@ layout: base-page
 title: About
 permalink: /about/
 bodyClass: page
-nav_items: [concepts, stats, feedback, registers]
+nav_items: [concepts, posts, stats, feedback, registers]
 ---
 :page-liquid:
 
@@ -11,6 +11,9 @@ The OSGeo Geolexica is the online glossary for https://www.osgeo.org[OSGeo].
 
 
 == Responsibility
+
+The OSGeo Glossary is managed by the
+https://wiki.osgeo.org/wiki/Lexicon_Committee[OSGeo Lexicon Committee].
 
 ////
 The MLGT is managed by the ISO/TC 211 Terminology Maintenance Group (TMG).
