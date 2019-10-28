@@ -5,4 +5,7 @@ _site
 node_modules
 
 _concepts
+concepts_data
+glossary.csv
+
 
