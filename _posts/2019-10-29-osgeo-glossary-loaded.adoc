@@ -1,0 +1,22 @@
+---
+layout: custom-post
+title:  "Initial terms loaded for testing and the Lexicon Committee!"
+date:   2019-10-29 02:30:00 +0800
+categories: update
+---
+
+The OSGeo Glossary is now managed by the
+https://wiki.osgeo.org/wiki/Lexicon_Committee[OSGeo Lexicon Committee],
+which is being established.
+
+From today you will notice that the glossary is filled with terms,
+compiled courtesy of Cameron Shorter and Felicity Brand. These
+terms are not yet stable -- the term IDs may still change during
+the testing period.
+
+A special thank you to Reese Plews, convenor of ISO/TC 211's TMG
+for reviewing the terms, and Ronald Tse for facilitating the
+display of these terms.
+
+Stay tuned, and in the meantime, please feel free to send us
+any feedback on the OSGeo mailing list!
