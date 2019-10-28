@@ -16,7 +16,7 @@ jobs:
       - name: Setup prerequisites
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl make libxml2-dev libxslt-dev npm openssl
+          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
       - name: Setup snaps
         run: |
           sudo snap install yq
