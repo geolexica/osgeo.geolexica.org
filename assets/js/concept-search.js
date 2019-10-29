@@ -57,7 +57,7 @@
       this.stringInputRef = React.createRef();
 
       this.state = {
-        valid: 'valid',  // Required value of the entry_status field, or undefined
+        valid: props.refineControls.indexOf('validity') >= 0 ? 'valid' : undefined,  // Required value of the entry_status field, or undefined
         string: '',
       };
     }
@@ -218,7 +218,7 @@
         el('div', { key: 'search-controls', className: 'search-controls' },
           el(SearchControls, {
             onSearchChange: this.handleSearchQuery,
-            refineControls: ['validity'],
+            refineControls: this.props.refineControls,
           })
         ),
       ];
