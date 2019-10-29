@@ -1,4 +1,4 @@
-= Geolexica: OSGeo Glossary
+= Geolexica: OSGeo Glossary Website
 
 image:https://github.com/geolexica/osgeo.geolexica.org/workflows/build/badge.svg["Build Status", link="https://github.com/geolexica/osgeo.geolexica.org/actions?workflow=build"]
 
