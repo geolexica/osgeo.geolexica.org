@@ -1,0 +1,3 @@
+[submodule "osgeo-glossary"]
+	path = osgeo-glossary
+	url = git@github.com:geolexica/osgeo-glossary.git

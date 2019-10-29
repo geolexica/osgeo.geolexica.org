@@ -6,19 +6,12 @@ clean:
 	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts_data concepts glossary.csv
+	rm -rf concepts_data concepts
 
 # Don't remove _data/info.yaml since osgeo-termbase can't generate it yet
 	#_data/info.yaml
 
 data: _data/info.yaml _concepts
-
-glossary.csv:
-	bundle exec osgeo-termbase-fetchcsv glossary.csv
-
-concepts_data: glossary.csv
-	bundle exec osgeo-termbase-csv2yaml glossary.csv
-	mv concepts concepts_data
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -27,11 +20,11 @@ bundle:
 	bundle
 
 # Make collection YAML files into adoc files
-_concepts: concepts_data
+_concepts:
 	mkdir -p $@
-	for filename in $</*.yaml; do \
+	for filename in osgeo-glossary/concepts/*.yaml; do \
 	    [ -e "$$filename" ] || continue; \
-			newpath=$${filename//$<\/concept-/$@\/}; \
+			newpath=$${filename//osgeo-glossary\/concepts\/concept-/$@\/}; \
 	    cp $$filename $${newpath//yaml/adoc}; \
 			echo "---" >> $${newpath//yaml/adoc}; \
 	done
