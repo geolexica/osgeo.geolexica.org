@@ -6,7 +6,7 @@ clean:
 	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts_data concepts
+	rm -rf concepts
 
 # Don't remove _data/info.yaml since osgeo-termbase can't generate it yet
 	#_data/info.yaml
