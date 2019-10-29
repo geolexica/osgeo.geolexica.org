@@ -262,7 +262,7 @@
     }
   }
 
-  ReactDOM.render(el(ConceptBrowser, null), document.querySelector('.browse-concepts'))
+  ReactDOM.render(el(ConceptBrowser, { refineControls: [] }), document.querySelector('.browse-concepts'))
 
   function getConceptPermalink(concept) {
     if (concept.termid) {
