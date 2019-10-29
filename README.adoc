@@ -139,25 +139,13 @@ These branches of the site are deployed at:
 
 === Contributing new entries (concepts/terms/translations)
 
-Please either:
+Please file an issue with description of what you are proposing,
+or (better) create a pull request, in the `osgeo-glossary` repository.
 
-. File an Issue with description of what you are proposing,
-  the managers will create a pull request for you; or
-
-. Better yet, directly create a Pull Request to the `/concepts_data`
-  folder, allowing direct review and merging of the PR. Please
-  see existing `/concept_data` YAML files for the correct format
-  or the example at <<concepts>>.
+See the existing YAML files under `concepts/` for the correct format.
 
 
 === Modification of existing entries
 
-Please either:
-
-. File an Issue with description of what you would like to change,
-  the managers will create a pull request for you; or
-
-. Directly create a Pull Request to the particular
-  `/concepts_data/{entry}.yaml` file with your modifications.
-
-
+Please file an issue with description of what you would like to change,
+or (better) create a pull request, in the `osgeo-glossary` repository.
