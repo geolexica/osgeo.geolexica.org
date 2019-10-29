@@ -113,6 +113,8 @@ Please submit proposed changes either as new Issues or Pull Requests.
 
 NOTE: These steps are only intended for the internal operator of the site!
 
+Make sure glossary database submodule is initialized & updated.
+
 
 === Building the index
 
