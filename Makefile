@@ -3,31 +3,20 @@ SHELL := /bin/bash
 all: _site
 
 clean:
-	rm -rf _site _concepts
+	rm -rf _site
 
 distclean: clean
-	rm -rf concepts
 
 # Don't remove _data/info.yaml since osgeo-termbase can't generate it yet
 	#_data/info.yaml
 
-data: _data/info.yaml _concepts
+data: _data/info.yaml
 
 _site: data | bundle
 	bundle exec jekyll build
 
 bundle:
 	bundle
-
-# Make collection YAML files into adoc files
-_concepts:
-	mkdir -p $@
-	for filename in osgeo-glossary/concepts/*.yaml; do \
-	    [ -e "$$filename" ] || continue; \
-			newpath=$${filename//osgeo-glossary\/concepts\/concept-/$@\/}; \
-	    cp $$filename $${newpath//yaml/adoc}; \
-			echo "---" >> $${newpath//yaml/adoc}; \
-	done
 
 serve:
 	bundle exec jekyll serve
