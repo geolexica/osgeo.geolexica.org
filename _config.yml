@@ -97,6 +97,9 @@ term_languages:
   - eng
 
 exclude:
+  - osgeo-glossary/
+  - README.adoc
+
   - "*.yaml"
   - concepts_data
 
