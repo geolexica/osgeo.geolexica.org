@@ -4,9 +4,16 @@ google_analytics:
   id: UA-138578173-2
 
 committee:
-  id: 211
   name: OSGeo
+  parent_org_name: OSGeo
   home: https://www.osgeo.org
+  main_logo:
+    path: /assets/osgeo-emblem-cmyk.svg
+    alt_text: OSGeo
+  footer_logo:
+    path: /assets/osgeo-logo-cmyk.svg
+    alt_text: OSGeo
+    url: https://www.osgeo.org/
 
 font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
 
@@ -20,6 +27,10 @@ tagline: >-
 
 description: >-
   The authoritative glossary for OSGeo.
+
+# Used for copyright notice and possibly more.
+# TODO
+org: {}
 
 baseurl: ""
 url: "https://osgeo.geolexica.org"
@@ -58,11 +69,6 @@ footer_nav:
   - url: https://www.osgeo.org
     title: OSGeo
 
-powered_by:
-  url: https://open.ribose.com
-  title: Ribose
-  logo_path: /assets/logo-ribose.svg
-
 theme: jekyll-geolexica
 
 sass:
@@ -71,30 +77,11 @@ sass:
 collections:
   pages:
     output: true
-    permalink: /:path/
-  concepts:
-    output: true
-    permalink: /:collection/:name/
-  concepts_json:
-    output: true
-    output_ext: .json
-    permalink: /api/concepts/:name.json
 
-defaults:
-  - scope:
-      path: ""
-      type: "concepts"
-    values:
-      layout: concept
-  - scope:
-      path: ""
-      type: "concepts_json"
-    values:
-      layout: concept.json
-      permalink: /api/concepts/:name.json
-
-term_languages:
-  - eng
+geolexica:
+  concepts_glob: "./osgeo-glossary/concepts/*.yaml"
+  term_languages:
+    - eng
 
 exclude:
   - osgeo-glossary/
