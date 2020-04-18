@@ -82,6 +82,9 @@ geolexica:
   concepts_glob: "./osgeo-glossary/concepts/*.yaml"
   term_languages:
     - eng
+  formats:
+    - html
+    - json
 
 exclude:
   - osgeo-glossary/
