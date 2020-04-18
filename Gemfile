@@ -6,7 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-theme-isotc211-helpers", "~> 0.5.4"
   gem "jekyll-plugin-frontend-build", "~> 0.0.2"
-  gem "jekyll-geolexica", github: "geolexica/geolexica-server", branch: "for-osgeo"
+  gem "jekyll-geolexica", github: "geolexica/geolexica-server"
   gem "jekyll-data"
   gem "jekyll-asciidoc"
 end
