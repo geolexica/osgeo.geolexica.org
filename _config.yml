@@ -28,10 +28,6 @@ tagline: >-
 description: >-
   The authoritative glossary for OSGeo.
 
-# Used for copyright notice and possibly more.
-# TODO
-org: {}
-
 baseurl: ""
 url: "https://osgeo.geolexica.org"
 
