@@ -36,3 +36,22 @@ Identified issues that are publicly visible are maintained at the
 https://github.com/geolexica/TMG/issues[TMG GitHub Issues] page.
 
 ////
+
+
+== Copyright
+
+(C) {{ site.time | date: "%Y" }} OSGeo
+
+All rights reserved. Unless otherwise specified, no part of this
+site or its documents may be reproduced or utilized otherwise in any form or by any
+means, electronic or mechanical, including photocopying, or posting on the
+internet or an intranet, without prior written permission. Permission can
+be requested from the address below.
+
+[%hardbreaks]
+OSGeo
+9450 SW Gemini Dr. #42523
+Beaverton, Oregon
+United States
+97008
+https://www.osgeo.org/[www.osgeo.org]
