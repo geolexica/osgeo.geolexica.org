@@ -82,6 +82,9 @@ geolexica:
     - html
     - json
 
+tidy_json:
+  pretty: true
+
 exclude:
   - osgeo-glossary/
   - README.adoc
