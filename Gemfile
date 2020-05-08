@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-geolexica", github: "geolexica/geolexica-server"
   gem "jekyll-data"
   gem "jekyll-asciidoc"
+  gem "jekyll-tidy-json"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
