@@ -92,6 +92,12 @@ geolexica:
 tidy_json:
   pretty: true
 
+plugins:
+  - jekyll-feed
+  - jekyll-geolexica
+  - jekyll-tidy-json
+  - jekyll-plugin-frontend-build
+
 exclude:
   - osgeo-glossary/
   - README.adoc
