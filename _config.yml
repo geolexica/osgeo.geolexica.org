@@ -74,6 +74,13 @@ collections:
   pages:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      show_header_meta: true
+
 geolexica:
   concepts_glob: "./osgeo-glossary/concepts/*.yaml"
   term_languages:
