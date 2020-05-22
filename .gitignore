@@ -3,6 +3,7 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules
+Gemfile.lock
 
 _concepts
 concepts_data
