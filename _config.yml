@@ -65,6 +65,11 @@ footer_nav:
   - url: https://www.osgeo.org
     title: OSGeo
 
+powered_by:
+  url: https://open.ribose.com
+  title: Ribose
+  logo_path: /assets/logo-ribose.svg
+
 theme: jekyll-geolexica
 
 sass:
@@ -73,6 +78,14 @@ sass:
 collections:
   pages:
     output: true
+    permalink: /:path/
+  concepts:
+    output: true
+    permalink: /:collection/:name/
+  concepts_json:
+    output: true
+    output_ext: .json
+    permalink: /api/concepts/:name.json
 
 defaults:
   - scope:
