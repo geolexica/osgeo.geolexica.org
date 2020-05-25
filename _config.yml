@@ -1,3 +1,5 @@
+source: _source
+
 title: "OSGeo Glossary (Geolexica)"
 
 google_analytics:
@@ -95,7 +97,7 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "./osgeo-glossary/concepts/*.yaml"
+  concepts_glob: "../osgeo-glossary/concepts/*.yaml"
   term_languages:
     - eng
   formats:
@@ -110,31 +112,3 @@ plugins:
   - jekyll-geolexica
   - jekyll-tidy-json
   - jekyll-plugin-frontend-build
-
-exclude:
-  - osgeo-glossary/
-  - README.adoc
-
-  - "*.yaml"
-  - concepts_data
-
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-
-  - babel.config.js
-  - package.json
-  - package-lock.json
-  - monitor.sh
-  - node_modules
-
-  - github_deploy_key.enc
-  - deploy.sh
-  - monitor.sh
-
-  - .sass-cache/
-
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
