@@ -10,7 +10,7 @@ distclean: clean
 # Don't remove _data/info.yaml since osgeo-termbase can't generate it yet
 	#_data/info.yaml
 
-data: _data/info.yaml
+data: _source/_data/info.yaml
 
 _site: data | bundle
 	bundle exec jekyll build

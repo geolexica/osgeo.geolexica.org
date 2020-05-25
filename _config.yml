@@ -1,3 +1,5 @@
+source: _source
+
 title: "OSGeo Glossary (Geolexica)"
 
 google_analytics:
@@ -95,7 +97,7 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "./osgeo-glossary/concepts/*.yaml"
+  concepts_glob: "../osgeo-glossary/concepts/*.yaml"
   term_languages:
     - eng
   formats:
