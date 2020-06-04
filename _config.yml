@@ -111,5 +111,6 @@ plugins:
   - jekyll-data
   - jekyll-feed
   - jekyll-geolexica
+  - jekyll-sitemap
   - jekyll-tidy-json
   - jekyll-plugin-frontend-build
