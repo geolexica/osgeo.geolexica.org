@@ -81,13 +81,6 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  concepts:
-    output: true
-    permalink: /:collection/:name/
-  concepts_json:
-    output: true
-    output_ext: .json
-    permalink: /api/concepts/:name.json
 
 defaults:
   - scope:
