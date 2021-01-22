@@ -1,0 +1,44 @@
+---
+layout: custom-post
+title:  "First release of OSGeo Glossary (and how to cite)!"
+date:   2021-01-24 11:30:00 +0800
+categories: update
+---
+
+A new release to celebrate the new year:
+the https://wiki.osgeo.org/wiki/Lexicon_Committee[OSGeo Lexicon Committee]
+has released its first set of terms!
+
+The OSGeo Glossary is now filled with terms and ready to use.
+These terms have been consolidated from OSGeo projects and
+especially the OSGeo Geo4All newsletter.
+
+We thank the editing team for compiling, editing and refining
+the terms (in alphabetical order):
+
+* Felicity Brand, OSGeo Summer of Docs
+* Naini Khajanchi, Okta
+* Prof. Nikos Labrinos, editor of the Geo4All newsletter
+* Reese Plews, convenor of the ISO/TC 211 TMG (Terminology Management Group)
+* Cameron Shorter, chair of the Lexicon Committee
+* Ankita Tripathi, Tech Writer and Community Liaison
+* Ronald Tse, Ribose
+
+Special thanks to Prof. Erik Stubkjær for his assistance
+and feedback on these terms!
+
+Here's how to cite this dataset:
+
+* ISO 690: OSGEO. _OSGeo Glossary_. Version 1.0. OSGeo, 2021-01-22. Available at: https://osgeo.geolexica.org.
+* MLA: OSGeo, _OSGeo Glossary_. Version 1.0, OSGeo, 22 Jan. 2021. https://osgeo.geolexica.org
+* APA: OSGeo (2021). _OSGeo Glossary_ (version 1.0). OSGeo. https://osgeo.geolexica.org
+
+Citation formats for individual terms:
+
+* ISO 690: OSGEO. geoid. In: _OSGeo Glossary_. Version 1.0. OSGeo, 2021-01-22. Concept ID: 129. Available at: https://osgeo.geolexica.org/concepts/129/.
+* MLA: OSGeo. "geoid." _OSGeo Lexicon_. Version 1.0, OSGeo, 22 Jan. 2021, https://osgeo.geolexica.org/concepts/129/
+* APA: OSGeo (2021). geoid. In: _OSGeo Lexicon_ (version 1.0). OSGeo. https://osgeo.geolexica.org/concepts/129/
+
+Do drop us a note if you're using these terms on the
+mailto:lexicon@lists.osgeo.org[OSGeo Lexicon mailing list],
+or just to say hi!
