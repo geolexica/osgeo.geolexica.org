@@ -16,11 +16,11 @@ especially the OSGeo Geo4All newsletter.
 We thank the editing team for compiling, editing and refining
 the terms (in alphabetical order):
 
-* Felicity Brand, OSGeo Summer of Docs
+* Felicity Brand, https://wiki.osgeo.org/wiki/Season_of_Docs_Application_2019[OSGeo Season of Docs 2019]
 * Naini Khajanchi, Okta
-* Prof. Nikos Lambrinos, editor of the Geo4All newsletter
-* Reese Plews, convenor of the ISO/TC 211 TMG (Terminology Management Group)
-* Cameron Shorter, chair of the Lexicon Committee
+* Prof. Nikos Lambrinos, Chief Editor of the https://www.osgeo.org/initiatives/geo-for-all/geo-newsletters-archive/[GeoForAll newsletter]
+* Reese Plews, Convenor of the https://github.com/ISO-TC211/TMG[ISO/TC 211 TMG (Terminology Management Group)]
+* Cameron Shorter, Chair of the Lexicon Committee
 * Ankita Tripathi, Tech Writer and Community Liaison
 * Ronald Tse, Ribose
 
