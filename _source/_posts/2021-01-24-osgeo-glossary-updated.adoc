@@ -18,7 +18,7 @@ the terms (in alphabetical order):
 
 * Felicity Brand, OSGeo Summer of Docs
 * Naini Khajanchi, Okta
-* Prof. Nikos Labrinos, editor of the Geo4All newsletter
+* Prof. Nikos Lambrinos, editor of the Geo4All newsletter
 * Reese Plews, convenor of the ISO/TC 211 TMG (Terminology Management Group)
 * Cameron Shorter, chair of the Lexicon Committee
 * Ankita Tripathi, Tech Writer and Community Liaison
