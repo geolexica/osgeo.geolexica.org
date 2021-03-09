@@ -52,4 +52,8 @@ jobs:
           CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
         run: |
+          aws configure set default.s3.max_concurrent_requests 100
+          aws configure set default.s3.max_queue_size 10000
+          aws configure set default.s3.use_accelerate_endpoint true
+          aws configure set default.s3.payload_signing_enabled false
           rake geolexica:s3_deploy
