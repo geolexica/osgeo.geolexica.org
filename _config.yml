@@ -90,7 +90,9 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "../osgeo-glossary/concepts/*.yaml"
+  glossary_path: "../osgeo-glossary/geolexica"
+  concepts_glob: "../osgeo-glossary/geolexica/concept/*.yaml"
+  localized_concepts_path: "../osgeo-glossary/geolexica/localized_concept"
   term_languages:
     - eng
   formats:
