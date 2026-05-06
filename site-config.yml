@@ -1,0 +1,96 @@
+id: osgeo
+domain: osgeo.geolexica.org
+title: OSGeo Lexicon
+subtitle: Open Source Geospatial Glossary
+description: Glossary of geospatial terms from the Open Source Geospatial Foundation.
+
+datasets:
+  - id: osgeo
+    uri: "https://glossarist.org/osgeo/*"
+    gcrPackage: https://github.com/geolexica/osgeo-glossary/releases/latest/download/osgeo-full.gcr
+    sourceRepo: https://github.com/geolexica/osgeo-glossary
+    title: "OSGeo Lexicon"
+    description: "Open Source Geospatial Foundation glossary of geospatial terms"
+    owner: OSGeo
+    color: "#4CB05B"
+
+routing:
+  - uri: "urn:iec:std:iec:60050:*"
+    type: url
+    url: "https://electropedia.org/iev/iev.nsf/display?openform&ievref={conceptId}"
+    label: "IEC Electropedia"
+
+  - uri: "https://glossarist.org/iev/*"
+    type: url
+    url: "https://electropedia.org/iev/iev.nsf/display?openform&ievref={conceptId}"
+    label: "IEC Electropedia"
+
+  - uri: "urn:iso:std:iso:14812:*"
+    type: site
+    baseUrl: "https://isotc204.geolexica.org"
+    label: "ISO/TC 204 ITS Vocabulary"
+
+  - uri: "https://glossarist.org/isotc204/*"
+    type: site
+    baseUrl: "https://isotc204.geolexica.org"
+    label: "ISO/TC 204 ITS Vocabulary"
+
+  - uri: "https://glossarist.org/isotc211/*"
+    type: site
+    baseUrl: "https://isotc211.geolexica.org"
+    label: "ISO/TC 211 Glossary"
+
+branding:
+  primaryColor: "#4CB05B"
+  darkColor: "#00393F"
+  fonts:
+    header:
+      family: "Miriam Libre"
+      source: "google"
+      weights: [400, 700]
+    body:
+      family: "Sintony"
+      source: "google"
+      weights: [400, 700]
+  logo:
+    path: /logos/osgeo-emblem.svg
+    alt: "OSGeo"
+    url: "/"
+    localPath: logos/osgeo-emblem.svg
+  footerLogo:
+    path: /logos/osgeo-logo.svg
+    alt: "OSGeo"
+    url: "https://www.osgeo.org"
+    localPath: logos/osgeo-logo.svg
+  ownerName: OSGeo
+  ownerUrl: https://www.osgeo.org
+
+features:
+  news: false
+  stats: true
+  graph: true
+  about: true
+  search: true
+  poweredBy:
+    title: "Glossarist"
+    url: "https://glossarist.org"
+
+social:
+  github: "https://github.com/geolexica/osgeo-glossary"
+
+nav:
+  - label: Concepts
+    route: home
+  - label: Search
+    route: search
+  - label: Graph
+    route: graph
+
+footerNav:
+  - label: About
+    route: about
+
+defaults:
+  language: eng
+
+email: admin@osgeo.org
