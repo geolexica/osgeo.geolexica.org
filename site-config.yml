@@ -7,7 +7,7 @@ description: Glossary of geospatial terms from the Open Source Geospatial Founda
 datasets:
   - id: osgeo
     uri: "https://glossarist.org/osgeo/*"
-    gcrPackage: https://github.com/geolexica/osgeo-glossary/releases/latest/download/osgeo-full.gcr
+    gcrPackage: https://github.com/geolexica/osgeo-glossary/releases/latest/download/osgeo.gcr
     sourceRepo: https://github.com/geolexica/osgeo-glossary
     title: "OSGeo Lexicon"
     description: "Open Source Geospatial Foundation glossary of geospatial terms"
@@ -53,15 +53,15 @@ branding:
       source: "google"
       weights: [400, 700]
   logo:
-    path: /logos/osgeo-logo.svg
+    path: /logos/osgeo-emblem.svg
     alt: "OSGeo"
     url: "/"
-    localPath: logos/osgeo-emblem.svg
+    remoteUrl: "https://github.com/OSGeo/osgeo/raw/refs/heads/master/marketing/branding/logo/osgeo-emblem-cmyk.svg"
   footerLogo:
-    path: /logos/osgeo-footer-logo.svg
+    path: /logos/osgeo-logo.svg
     alt: "OSGeo"
     url: "https://www.osgeo.org"
-    localPath: logos/osgeo-logo.svg
+    remoteUrl: "https://github.com/OSGeo/osgeo/raw/refs/heads/master/marketing/branding/logo/osgeo-logo-cmyk.svg"
   ownerName: OSGeo
   ownerUrl: https://www.osgeo.org
 
