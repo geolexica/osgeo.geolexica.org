@@ -53,12 +53,12 @@ branding:
       source: "google"
       weights: [400, 700]
   logo:
-    path: /logos/osgeo-emblem.svg
+    path: /logos/osgeo-logo.svg
     alt: "OSGeo"
     url: "/"
     localPath: logos/osgeo-emblem.svg
   footerLogo:
-    path: /logos/osgeo-logo.svg
+    path: /logos/osgeo-footer-logo.svg
     alt: "OSGeo"
     url: "https://www.osgeo.org"
     localPath: logos/osgeo-logo.svg
