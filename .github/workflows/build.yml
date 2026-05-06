@@ -24,51 +24,24 @@ jobs:
       name: production
       url: https://osgeo.geolexica.org
     steps:
-      - name: Checkout vocabulary-browser
-        uses: actions/checkout@v4
-        with:
-          repository: glossarist/vocabulary-browser
-          ref: main
-          path: vocabulary-browser
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: vocabulary-browser/package-lock.json
 
-      - name: Install dependencies
-        run: npm ci
-        working-directory: vocabulary-browser
+      - name: Install concept-browser
+        run: npm install @glossarist/concept-browser
 
-      - name: Fetch datasets (download GCR packages)
-        run: npm run fetch-datasets
-        working-directory: vocabulary-browser
+      - name: Build site
+        run: npx concept-browser build
         env:
-          SITE_ID: osgeo
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate data
-        run: npm run generate-data
-        working-directory: vocabulary-browser
-        env:
-          SITE_ID: osgeo
-
-      - name: Build edges
-        run: node scripts/build-edges.js
-        working-directory: vocabulary-browser
-
-      - name: Build SPA
-        run: npm run build
-        working-directory: vocabulary-browser
-        env:
-          SITE_ID: osgeo
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: vocabulary-browser/dist
+          path: dist
 
   deploy:
     environment:
