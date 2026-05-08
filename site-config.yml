@@ -1,5 +1,6 @@
 id: osgeo
 domain: osgeo.geolexica.org
+uriBase: https://osgeo.geolexica.org
 title: OSGeo Lexicon
 subtitle: Open Source Geospatial Glossary
 description: Glossary of geospatial terms from the Open Source Geospatial Foundation.
@@ -77,6 +78,13 @@ features:
 
 social:
   github: "https://github.com/geolexica/osgeo-glossary"
+
+pages:
+  - type: about
+    route: about
+    title: About
+    icon: info
+    source: about.md
 
 nav:
   - label: Concepts
