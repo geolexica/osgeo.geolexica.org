@@ -10,3 +10,7 @@ _concepts
 concepts_data
 glossary.csv
 
+public/
+dist/
+metadata.yaml
+.vscode/
