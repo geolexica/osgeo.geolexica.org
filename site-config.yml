@@ -58,7 +58,6 @@ branding:
     alt: "OSGeo"
     url: "/"
     localPath: logos/osgeo-emblem.svg
-    localPath: logos/osgeo-emblem.svg
   footerLogo:
     path: /logos/osgeo-logo.svg
     alt: "OSGeo"
