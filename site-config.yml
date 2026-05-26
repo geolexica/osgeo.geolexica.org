@@ -72,9 +72,6 @@ features:
   graph: true
   about: true
   search: true
-  poweredBy:
-    title: "Glossarist"
-    url: "https://glossarist.org"
 
 social:
   github: "https://github.com/geolexica/osgeo-glossary"
