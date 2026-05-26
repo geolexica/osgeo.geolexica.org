@@ -1,0 +1,62 @@
+---
+layout: custom-post
+title:  "OSGeo Lexicon now available on the Glossarist Concept Browser"
+date:   2026-05-26 00:00:00 +0800
+categories: announcement
+---
+
+We are pleased to announce that the
+https://www.osgeo.org[Open Source Geospatial Foundation (OSGeo)] Lexicon
+is now available online through the new
+https://github.com/glossarist/concept-browser[Glossarist Concept Browser]
+at https://osgeo.geolexica.org.
+
+The OSGeo Lexicon provides authoritative definitions for geospatial terms
+used across open-source projects and standards. This launch brings
+444 geospatial terminology concepts to a modern, interactive web platform.
+
+== What's new
+
+* **Full-text search** — search across all terms and definitions in the glossary.
+* **Interactive graph visualization** — explore relationships between concepts
+  using a force-directed graph powered by D3.js.
+* **Cross-reference resolution** — terms referenced from other registers
+  (IEC Electropedia, ISO/TC 204, ISO/TC 211) are linked automatically.
+* **Statistics dashboard** -- view detailed statistics about concepts,
+  definitions, and coverage.
+* **Multiple download formats** -- terminology data is available in
+  YAML, JSON-LD, Turtle (RDF), and TBX formats.
+* **Mobile-responsive design** -- works on any screen size.
+
+== About the OSGeo Lexicon
+
+The OSGeo Glossary is managed by the
+https://wiki.osgeo.org/wiki/Lexicon_Committee[OSGeo Lexicon Committee]
+and maintained collaboratively in the
+https://github.com/geolexica/osgeo-glossary[OSGeo Glossary repository] on GitHub.
+
+The source terminology data covers geospatial concepts relevant to the
+open-source geospatial community, including terms from GIS, remote sensing,
+cartography, spatial databases, and geodesy.
+
+== Technology
+
+This site is built with the
+https://github.com/glossarist/concept-browser[Glossarist Concept Browser],
+an open-source tool for browsing, searching, and exploring structured
+terminology datasets. It consumes terminology data packaged in the
+https://github.com/glossarist[Glossarist] GCR (Glossarist Concept Repository)
+format, a ZIP-based packaging standard for terminology datasets.
+
+== Feedback
+
+We welcome your feedback and contributions. Please open an issue on
+https://github.com/geolexica/osgeo-glossary[GitHub] or contact the
+OSGeo Lexicon Committee.
+
+For general inquiries:
+
+OSGeo Lexicon Committee +
+https://www.osgeo.org[Open Source Geospatial Foundation] +
+admin@osgeo.org +
+https://github.com/geolexica/osgeo-glossary

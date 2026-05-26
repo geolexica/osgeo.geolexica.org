@@ -67,7 +67,7 @@ branding:
   ownerUrl: https://www.osgeo.org
 
 features:
-  news: false
+  news: true
   stats: true
   graph: true
   about: true
@@ -89,6 +89,8 @@ pages:
 nav:
   - label: Concepts
     route: home
+  - label: News
+    route: news
   - label: Search
     route: search
   - label: Graph
@@ -100,5 +102,7 @@ footerNav:
 
 defaults:
   language: eng
+
+newsDir: news
 
 email: admin@osgeo.org
