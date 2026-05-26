@@ -14,3 +14,7 @@ public/
 dist/
 metadata.yaml
 .vscode/
+
+.datasets/
+.gcr/
+tmp/
